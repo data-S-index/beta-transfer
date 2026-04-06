@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# beta-transfer
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Staging redirect page for [Scholar Data](https://scholardata.io), deployed at `beta.scholardata.io`.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Development
+
+```bash
+pnpm install
+pnpm dev
+```
+
+## Build
+
+```bash
+pnpm build
+```
+
+## Deploy
+
+Deployed to `beta.scholardata.io`. Any path and query parameters visited on the beta domain are forwarded to the equivalent URL on `scholardata.io`.
