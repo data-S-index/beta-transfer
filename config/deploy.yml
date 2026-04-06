@@ -14,6 +14,8 @@ servers:
 proxy:
   ssl: true
   host: <%= ENV["KAMAL_APP_DOMAIN"] %>
+  # Proxy connects to your container on port 80 by default.
+  app_port: 80
   forward_headers: true  # Forward client headers to your application
   healthcheck:
     timeout: 60  # Health check timeout in seconds
