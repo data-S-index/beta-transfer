@@ -53,10 +53,11 @@ onUnmounted(() => {
         </svg>
       </div>
 
-      <h1>Scholar Data has moved</h1>
+      <h1>Beta Scholar Data has moved</h1>
 
       <p class="sub">
-        We've relocated to our new home at
+        On popular demand we are soft launching Scholar Data! We've relocated to
+        our new home at
         <a :href="getRedirectUrl()" class="domain">scholardata.io</a>. You'll be
         redirected automatically.
       </p>
